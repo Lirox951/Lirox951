@@ -1,14 +1,14 @@
-Projet Nsi: PacMan 
-Dans ce projet je vais essayer de recréer un PacMan le plus ressemblant au vrai.
-Pour cela je vais devoir me surpasser.
+Projet Nsi: PacMan  
+Dans ce projet je vais essayer de recréer un PacMan le plus ressemblant au vrai.  
+Pour cela je vais devoir me surpasser.  
 
-Plateau: Liste de liste (booléens)
-Personnages: Dictionnaire
-pac_man = {'x':x, 'y':y, 'vitesse':v}
-f1 = {'x':x, 'y':y, 'vitesse':v}
+Plateau: Liste de liste (booléens)  
+Personnages: Dictionnaire  
+pac_man = {'x':x, 'y':y, 'vitesse':v}  
+f1 = {'x':x, 'y':y, 'vitesse':v}  
 
 
-Afficher la grille
+Afficher la grille  
 Interaction utilisateur: Déplacemenet?
 mise à jour de la grille: Déplact des fantômes
 test de colisions?
@@ -19,6 +19,13 @@ prendre des images pour les personnages
 rajouter des bille poser partout et quand on les ramasses le jeux va de plus en plus vite
 essayer de rajouter des billes speciales qui donne des atouts (les fantome sleep pendant quelques secondes, les PacMan a un booste de vitesse ou est invincilbe
 bref pleins d'atouts)
+
+
+
+MVP:
+Pour commencer je vais juste créer et afficher le plateau 
+et importer ds personnages immobiles 
+le principal ca sera de creer le labyrinte donc afficher une grille 
 
 
 
