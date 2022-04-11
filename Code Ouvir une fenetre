@@ -1,1 +1,39 @@
+from tkinter import *   
+from tkinter.ttk import *  
+   
+master = Tk()   
+  
+master.geometry("400x400")   
+  
+  
+def openNewWindow():   
+      
+    
+    
+    newWindow = Toplevel(master)   
+  
+    
+    
+    newWindow.title("New Window")   
+  
+    
+    newWindow.geometry("800x700")   
+  
+    
+    Label(newWindow,    
+          text ="Bienvenue dans PacMan").pack()   
+  
+  
+label = Label(master,    
+              text ="Menu")   
+  
+label.pack(pady = 10)   
+  
+btn = Button(master,    
+             text ="Clic pour commencer le jeux",    
+             command = openNewWindow)   
+btn.pack(pady = 10)   
+  
+mainloop()   
+
 
